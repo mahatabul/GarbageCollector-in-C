@@ -1,4 +1,4 @@
-# Simple Mark-and-Sweep Garbage Collector in ![C]([https://search.brave.com/images?q=c+anguage+logo&context=W3sic3JjIjoiaHR0cHM6Ly93d3cubmljZXBuZy5jb20vcG5nL2RldGFpbC85ODEtOTgxMzE3NV9jLWxvZ28tYy1wcm9ncmFtbWluZy1sYW5ndWFnZS1sb2dvLnBuZyIsInRleHQiOiJDIExvZ28gLSBDKysgUHJvZ3JhbW1pbmcgTGFuZ3VhZ2UgTG9nbywgdHJhbnNwYXJlbnQgcG5nIGRvd25sb2FkIiwicGFnZV91cmwiOiJodHRwczovL3d3dy5uaWNlcG5nLmNvbS9vdXJwaWMvdTJ5M3c3YTlpMW8wcjVyNV9jLWxvZ28tYy1wcm9ncmFtbWluZy1sYW5ndWFnZS1sb2dvLyJ9XQ%3D%3D&sig=0966ad36a3b27d51a8e72b00abbb7182f1f999db81dd3ee0ca00d4220d961af5&nonce=75ddf258b3c10364273e63c8c4f22557&source=imageCluster](https://images.seeklogo.com/logo-png/45/1/c-language-logo-png_seeklogo-458623.png))
+# Simple Mark-and-Sweep Garbage Collector in C
 
 ## Overview
 This project implements a simple mark-and-sweep garbage collector in C, designed to manage memory for a virtual machine (VM) that handles integers and pairs of objects. The garbage collector automatically reclaims memory for objects that are no longer reachable from the VM's stack, using the classic mark-and-sweep algorithm.
